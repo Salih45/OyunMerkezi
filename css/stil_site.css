@@ -1,0 +1,363 @@
+@charset "utf-8";
+body {
+	background-image: url(/resimler/wallpaper.png);
+	margin: 0px;
+}
+#dis {
+	font-family: arial;
+	height: auto;
+	width: 800px;
+	margin: auto;
+}
+
+#banner {
+	height: 150px;
+	width: 800px;
+}
+
+#menu {
+	height: 36px;
+	width: 800px;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+#menu li  {
+	float: left;
+}
+#menu a    {
+	display: block;
+	width: 150px;
+	height: 20px;
+	text-align: center;
+	font-size: 16px;
+	text-decoration: none;
+	background-color: #2fa2fb;
+	color: #000;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #081e29;
+	line-height: 20px;
+	padding: 5px;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #081e29;
+}
+#menu a:hover {
+	color: #2fa2fb;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #2fa2fb;
+	background-color: #081e29;
+	background-image: url(../resimler/menu_ok.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+
+
+#icerik {
+	height: 629px;
+	width: 800px;
+	background-color: #82C9FD;
+}
+.cer {
+	float: left;
+	height: auto;
+}
+
+#yan_menu {
+	height: auto;
+	width: 150px;
+}
+#yan_menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#yan_menu a   {
+	display: block;
+	width: 140px;
+	height: 40px;
+	text-decoration: none;
+	line-height: 40px;
+	background-color: #2fa2fb;
+	color: #081e29;
+	font-size: 16px;
+	padding-left: 4px;
+	border-top-width: 3px;
+	border-right-width: 3px;
+	border-bottom-width: 3px;
+	border-left-width: 3px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #081e29;
+	border-right-color: #081e29;
+	border-bottom-color: #081e29;
+	border-left-color: #081e29;
+	border-right-style: solid;
+}
+#yan_menu a:hover {
+	color: #2fa2fb;
+	background-color: #081e29;
+	border-right-width: 3px;
+	border-right-style: solid;
+	border-right-color: #2fa2fb;
+	background-image: url(../resimler/yan_menuok.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+#altknr {
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #081e29;
+}
+#popular {
+	height: 470px;
+	width: 144px;
+	border: 3px solid #000;
+}
+#popular ul {
+	list-style-type: none;
+	padding: 0px;
+	margin-top: 25px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+#popular a {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	height: 118px;
+	width: 100px;
+	border: 1px solid #081e29;
+	font-size: 10px;
+	margin-bottom: 13px;
+	color: #081e29;
+	background-color: #2fa2fb;
+	margin-top: 5px;
+	font-weight: bold;
+}
+#popular a:hover {
+	background-color: #666;
+	color: #fff;
+}
+
+
+
+
+#haber {
+	width: 500px;
+	height: 250px;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+}
+.baslik {
+	text-align: center;
+	font-weight: bold;
+	font-size: 13px;
+	background-image: url(../resimler/baslik_res%20copy.png);
+	display: block;
+	height: 35px;
+	margin-top: 0px;
+	line-height: 35px;
+	margin-bottom: 0px;
+}
+
+
+
+
+
+#icerik_ic {
+	height: auto;
+	width: 500px;
+	float: left;
+}
+
+
+
+
+.yan_kucuk {
+	width: 144px;
+	height: 153px;
+	border-right-width: 3px;
+	border-left-width: 3px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #081e29;
+	border-left-color: #081e29;
+}
+
+
+
+.yan_kucuk ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+.yan_kucuk a   {
+	text-decoration: none;
+	text-align: center;
+	height: 113px;
+	width: 100px;
+	font-size: 10px;
+	border: 1px solid #081e29;
+	display: block;
+	margin-left: 20px;
+	line-height: 10px;
+	color: #081e29;
+	background-color: #2fa2fb;
+	margin-top: 1px;
+	font-weight: bold;
+}
+.yan_kucuk a:hover {
+	background-color: #666;
+	color: #fff;
+}
+#orta_oyun  {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	list-style-type: none;
+	margin-left: 27px;
+	margin-bottom: 0px;
+}
+#orta_oyun li  {
+	float: left;
+	margin-right: 12px;
+}
+#orta_oyun a   {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	width: 100px;
+	font-size: 10px;
+	height: 118px;
+	border: 1px solid #081e29;
+	line-height: 12px;
+	color: #081e29;
+	background-color: #2fa2fb;
+	margin-top: 35px;
+	font-weight: bold;
+}
+#orta_oyun a:hover {
+	background-color: #666;
+	color: #fff;
+}
+
+
+.form_email {
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+}
+.oyunlar_orta {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	margin-left: 30px;
+}
+.oyunlar_orta li {
+	float: left;
+	margin-right: 12px;
+}
+.oyunlar_orta a {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	width: 100px;
+	font-size: 10px;
+	height: 118px;
+	border: 1px solid #081e29;
+	line-height: 12px;
+	color: #081e29;
+	background-color: #2fa2fb;
+	margin-top: 23px;
+	font-weight: bold;
+	font-variant: normal;
+}
+.oyunlar_orta a:hover {
+	background-color: #666;
+	color: #fff;
+}
+.tanitim_divres p {
+	padding: 0px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-size: 14px;
+	text-align: justify;
+}
+.tanitim_divres h2 {
+	margin: 5px 0px 0px;
+	padding: 0px;
+	font-size: 17px;
+	text-align: center;
+}
+#tanitim_cer {
+	height: auto;
+}
+.tanitim_divres {
+	height: 136px;
+	width: 500px;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #081e29;
+	border-bottom-color: #081e29;
+	margin-bottom: -2px;
+}
+
+
+.tanitim_res {
+	float: left;
+	border-right-width: 3px;
+	border-right-style: solid;
+	border-right-color: #081E29;
+	margin-right: 2px;
+}
+#tanitim_cer a {
+	text-decoration: none;
+	font-size: 17px;
+	color: #0469B7;
+}
+#tanitim_cer a:hover {
+	color: #081E29;
+}
+
+
+
+
+
+#footer {
+	background-color: #48ADFB;
+	height: 30px;
+	width: 800px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 28px;
+	margin-top: 4px;
+	font-weight: bold;
+}
+#iletisim_baslik {
+	text-align: center;
+	color: #0587E7;
+	margin-top: 0px;
+}
+#oyunlar_ustbosluk {
+	margin-top: 150px;
+}
+#iletisim_yazdiv {
+	height: 160px;
+	margin-top: 5px;
+}

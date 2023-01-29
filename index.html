@@ -1,0 +1,142 @@
+﻿<!doctype html>
+<html><!-- InstanceBegin template="Templates/sablon.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="sablon" -->
+<title>Oyun Merkezi</title>
+<link rel="stylesheet" type="text/css" href="css/slider_css/styles.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/slider_css/demo.css" media="all" />
+<!-- InstanceEndEditable -->
+<link href="css/stil_site.css" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="kafa" -->
+<!-- InstanceEndEditable -->
+</head>
+<body>
+<div id="dis">
+  <div id="banner"><img src="resimler/banner.jpg" width="800" height="150" /></div>
+  <div id="menu">
+    <ul>
+      <li><a href="index.html">Anasayfa</a></li>
+      <li><a href="oyunlar.html">Oyunlar</a></li>
+      <li><a href="oyun_tanitim.html">Oyun Tanıtımları</a></li>
+      <li><a href="oyun_haber.html">Oyun Haberleri</a></li>
+      <li><a href="iletisim.html">İletişim</a></li>
+    </ul>
+  </div>
+  <div id="icerik">
+  <div class="cer">
+    <div class="yan_kucuk">
+      <p class="baslik">ÜYE GİRİŞİ</p>
+      <form method="post" name="form1" id="form1">
+      <label for="eposta" ><p class="form_email">E-Posta:</p></label>
+      <input name="eposta" type="email" id="eposta" form="form1"  size="15">
+      <label for="eposta" ><p class="form_email">Şifre</p></label>
+      <input type="password" size="15">
+      <br><br>     
+     <input type="submit" value="Giriş">
+     <input type="reset" value="Temizle">
+      </form>
+    </div>
+    <div id="yan_menu">
+      <ul>
+        <li><a href="aksiyon.html">Aksiyon</a></li>
+        <li><a href="beceri.html">Beceri</a></li>
+        <li><a href="bulmaca.html">Bulmaca</a></li>
+        <li><a href="cok_oyunculu.html">Çok Oyunculu</a></li>
+        <li><a href="dovus.html">Dövüş</a></li>
+        <li><a href="macera.html">Macera</a></li>
+        <li><a href="savas.html">Savaş</a></li>
+        <li><a href="simulasyon.html">Simülasyon</a></li>
+        <li><a href="spor.html">Spor</a></li>
+        <li><a href="yaris.html">Yarış</a></li>           
+        <li><a href="zeka.html" id="altknr">Zeka</a></li>
+      </ul>
+    </div>   
+    </div>    
+    <div id="icerik_ic">
+    <!-- InstanceBeginEditable name="duzenle_alan1" -->        
+<div id="haber">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+    var $ = jQuery.noConflict();
+    $(window).load(function() {
+    $('.flexslider').flexslider({
+          animation: "fade"
+    });
+	
+	$(function() {
+		$('.show_menu').click(function(){
+				$('.menu').fadeIn();
+				$('.show_menu').fadeOut();
+				$('.hide_menu').fadeIn();
+		});
+		$('.hide_menu').click(function(){
+				$('.menu').fadeOut();
+				$('.show_menu').fadeIn();
+				$('.hide_menu').fadeOut();
+		});
+	});
+  });
+</script>
+<div class="container">			       
+     <div class="slider_container">
+		<div class="flexslider">
+	      <ul class="slides">
+	    	<li>
+	    		<a href="https://wildrift.leagueoflegends.com/tr-tr/" target="_blank"><img src="resimler/slider_res/wild_rift.jpg" alt="" title="" height="250" width="499"/></a>
+	    		<div class="flex-caption">
+                     <div class="caption_title_line"><h2>Mobil oyun</h2><p>League of Legends:Wild Rift adlı mobil oyun 2020'nin ortalarına doğru çıkış yapacak.</p></div>
+                </div>
+	    	</li>
+	    	<li>
+	    		<a href="oyunlar.html"><img src="resimler/slider_res/oyun.jpg" alt="" title="" height="250" width="500"/></a>
+	    		<div class="flex-caption">
+                    <div class="caption_title_line"><h2>Oyunlar</h2><p>Kafa Topu,Penalty Shooter ve Ateş ve Su adlı oyunlar eklenmiştir.</p></div>
+                </div>
+	    	</li>
+	    	<li>
+	    		<a href="https://www.epicgames.com/store/tr/product/totally-accurate-battle-simulator/home" target="_blank"><img src="resimler/slider_res/Totally.JPG" alt="" title="" height="250" width="500"/></a>
+	    		<div class="flex-caption">
+                    <div class="caption_title_line"><h2>Ücretsiz Oyun</h2><p>Totally Accurate Battle Simulator adlı oyun kısa süreliğine epic store'da ücretsiz oldu.</p></div>
+                </div>
+	    </ul>
+	  </div>
+   </div>
+    </div>  
+</div> 
+    <p class="baslik">YENİ EKLENEN OYUNLAR</p           
+   ><ul id="orta_oyun">
+      <li><a href="basketbol.html"><img src="resimler/oyun_res/basketbol.jpg" width="100" height="100" />Basketbol</a></li>
+      <li><a href="motor_yarisi.html"><img src="resimler/oyun_res/motor_yarisi.jpg" width="100" height="100" />Motor Yarışı</a></li>
+      <li><a href="araba_yarisi.html"><img src="resimler/oyun_res/araba_yarisi.jpg" width="100" height="100" />Araba Yarışı</a></li>
+      <li><a href="ziplayan_balon.html"><img src="resimler/oyun_res/zıplayan_balon.jpg" width="100" height="100" />Zıplayan Balon</a></li>
+      <li><a href="ciftlik_araba.html"><img src="resimler/oyun_res/ciftlik_araba.jpg" width="100" height="100" />Çiftlik Araba</a></li>
+      <li><a href="balonlar.html"><img src="resimler/oyun_res/balonlar.jpg" width="100" height="100" />Balonlar</a></li>
+      <li><a href="kule.html"><img src="resimler/oyun_res/kule.jpg" width="100" height="100" />Kule</a></li>
+      <li><a href="mortal_kombat.html"><img src="resimler/oyun_res/mortal_kombat.jpg" width="100" height="100" />Mortal Kombat</a></li>                         
+      </ul>     
+    <!-- InstanceEndEditable -->
+    </div>
+    <div class="cer">
+      <div class="yan_kucuk">
+        <p class="baslik">GÜNÜN OYUNU</p>
+        <ul>
+          <li><a href="kafa_topu.html"><img src="resimler/oyun_res/kafa_topu.jpg" width="100" height="100" />Kafa Topu</a></li>
+        </ul>
+      </div>
+    <div id="popular">
+      <p class="baslik">POPÜLER OYUNLAR</p>
+      <ul>
+          <li><a href="kafa_topu.html"><img src="resimler/oyun_res/kafa_topu.jpg" width="100" height="100" />Kafa Topu</a></li>
+          <li><a href="ates_ve_su.html"><img src="resimler/oyun_res/ates_ve_su.png" width="100" height="100" />Ateş ve Su</a></li>
+          <li><a href="penalty_shooters.html"><img src="resimler/oyun_res/penalty_shooters.jpg" />Penalty Shooters</a></li>
+          
+     </ul>            
+    </div>
+    </div>
+</div>
+<div id="footer">©2020 Tüm Hakları Saklıdır.</div>
+</div>
+</body>
+<!-- InstanceEnd --></html>
